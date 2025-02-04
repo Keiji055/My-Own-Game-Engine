@@ -1,0 +1,32 @@
+{
+  "ParticleSystems": [
+    {
+      "GravityModifier": 9.82,
+      "SpawnRate": 2.0,
+      "SpawnAngle": 0.0,
+      "LifeTime": 10.0,
+      "StartVelocity": {
+        "X": 0.0,
+        "Y": 50.0
+      },
+      "EndVelocity": {
+        "X": 0.0,
+        "Y": 10.0
+      },
+      "StartSize": 20.0,
+      "EndSize": 5.0,
+      "StartColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0
+      },
+      "EndColor": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0
+      }
+    }
+  ]
+}

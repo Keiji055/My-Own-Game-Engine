@@ -1,0 +1,209 @@
+{
+    "GameObjects": [
+        {
+            "Type": "CameraObject",
+            "Position": {
+                "X": 301.78094482421875,
+                "Y": 190.0100555419922,
+                "Z": 773.42822265625
+            },
+            "Rotation": {
+                "X": 0.0,
+                "Y": 203.43115234375,
+                "Z": 0.0
+            },
+            "Speed": 500.0
+        },
+        {
+            "Type": "ModelObject",
+            "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+            },
+            "Mesh": "Cube",
+            "Textures": [
+                {
+                    "Albedo": "Wooden_Carving_C"
+                },
+                {
+                    "Normal": "Wooden_Carving_N"
+                },
+                {
+                    "Material": "Wooden_Carving_M"
+                },
+                {
+                    "FX": ""
+                }
+            ]
+        },
+        {
+            "Type": "ModelObject",
+            "Position": {
+                "X": 0.0,
+                "Y": -50.0,
+                "Z": 0.0
+            },
+            "Mesh": "Plane",
+            "Textures": [
+                {
+                    "Albedo": ""
+                },
+                {
+                    "Normal": ""
+                },
+                {
+                    "Material": ""
+                },
+                {
+                    "FX": ""
+                }
+            ]
+        },
+        {
+            "Type": "AnimatedObject",
+            "Position": {
+                "X": 200.0,
+                "Y": 50.0,
+                "Z": -50.0
+            },
+            "Mesh": "SK_C_TGA_Bro",
+            "Textures": [
+                {
+                    "Albedo": "TGA_Bro_C"
+                },
+                {
+                    "Normal": "TGA_Bro_N"
+                },
+                {
+                    "Material": "TGA_Bro_M"
+                },
+                {
+                    "FX": ""
+                }
+            ],
+            "Animation": "A_C_TGA_Bro_Walk"
+        },
+        {
+            "Type": "ModelObject",
+            "Position": {
+                "X": -200.0,
+                "Y": 0.0,
+                "Z": 0.0
+            },
+            "Mesh": "Chest",
+            "Textures": [
+                {
+                    "Albedo": "Chest_C"
+                },
+                {
+                    "Normal": "Chest_N"
+                },
+                {
+                    "Material": "Chest_M"
+                },
+                {
+                    "FX": "Chest_FX"
+                }
+            ]
+        },
+        {
+            "Type": "ModelObject",
+            "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -200.0
+            },
+            "Mesh": "Buddha",
+            "Textures": [
+                {
+                    "Albedo": "Buddha_C"
+                },
+                {
+                    "Normal": "Buddha_N"
+                },
+                {
+                    "Material": "Buddha_M "
+                },
+                {
+                    "FX": ""
+                }
+            ]
+        },
+        {
+            "Type": "DirectionalLightObject",
+            "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+            },
+            "Color": {
+                "R": 0.6018370389938354,
+                "G": 0.1414143443107605,
+                "B": 0.8645640015602112,
+                "A": 0.0
+            },
+            "Direction": {
+                "X": 0.0,
+                "Y": -1.0,
+                "Z": -1.0
+            },
+            "Intensity": 1.0
+        },
+        {
+            "Type": "PointLightObject",
+            "Position": {
+                "X": 0.0,
+                "Y": 50.0,
+                "Z": 100.0
+            },
+            "Color": {
+                "R": 0.0,
+                "G": 1.0,
+                "B": 0.0,
+                "A": 1.0
+            },
+            "Intensity": 0.5899999737739563,
+            "Range": 177.14999389648438
+        },
+        {
+            "Type": "PointLightObject",
+            "Position": {
+                "X": 100.0,
+                "Y": 50.0,
+                "Z": 100.0
+            },
+            "Color": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0
+            },
+            "Intensity": 1.0,
+            "Range": 200.0
+        },
+        {
+            "Type": "SpotLightObject",
+            "Position": {
+                "X": -100.0,
+                "Y": 80.0,
+                "Z": 80.0
+            },
+            "Color": {
+                "R": 1.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 1.0
+            },
+            "Direction": {
+                "X": 0.0,
+                "Y": -1.0,
+                "Z": 0.0
+            },
+            "Intensity": 0.5899999737739563,
+            "Range": 177.14999389648438,
+            "Penumbra": 6.041524887084961,
+            "ConeRadius": 5.235987663269043
+        }
+    ]
+}
